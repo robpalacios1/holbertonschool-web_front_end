@@ -1,50 +1,34 @@
-# :gear: 0x00. Advanced HTML :gear:
-
-## Concepts
-
-For this project, students are expected to look at this concept:
-
-- HTML - elements of a web page
-
-## Welcome!
-
-Welcome to the Web Stack specialization. The 3 first projects will give you all basics of the Web development: HTML, CSS and Developer tools.
-
-In this project, you will learn how to use HTML tags to structure a web page. No CSS, no styling - don’t worry, the final page will be “ugly” it’s normal, it’s not the purpose of this project.
-
-Important note: details are important! lowercase vs uppercase / wrong letter… be careful!
+# :gear: 0x001. Developer tools :gear:
 
 ## Resources
 
 **Read or watch:**
 
-- HTML 5.2
-- HTML: HyperText Markup Language | MDN
-- HTML Reference - A free guide to all HTML elements and attributes
-- Can I use… Support tables for HTML5, CSS3, etc
-- HTML Cheat Sheet - WebsiteSetup
+- Chrome DevTools | Tools for Web Developers | Google Developers
+- Introduction | Down and Dirty with Chrome Developer Tools
+- Firefox Developer Tools | MDN
+- Dev Tips - Developer Tips by Umar Hansa
+- Get Started With Viewing And Changing CSS | Tools for Web Developers
+- Keeping it simple with the JavaScript console - LogRocket Blog
+- Inspect Network Activity - Chrome DevTools 101
 
 **Learning Objectives**
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-- Which guidelines to follow for HTML
-- How to create the skeleton of an HTML5 page
-- How to use semantic HTML tags to structure a web page
-- Which use cases to use div vs span
-- The semantic value’s of header, main, footer, article, nav, section, aside
-- How to use headings (and why it’s important to follow the hierarchical order)
-- How to make lists in HTML
-- The differences between medias (SVG, GIF, PNG, JPG)
-- How to structure data in a table
-- How to integrate a video in a webpage
-- How to integrate an audio file in a webpage
-- How to embed external content
-- How to correctly structure an HTML page
+- What Developer Tools in your browser are
+- How to open the Developer Tools on Chrome, Firefox, Safari, and Edge.
+- How to use the elements tab to edit HTML and CSS
+- How to audit a page according to the tips suggested by Lighthouse
+- How to create and run snippets on a page
+- How to get information about files and server configurations
+- How to block requests
+- How to know how much JavaScript or CSS is used on a page
+- How to detect 404 issues
+- How to move elements on a webpage
 
 **Requirements**
-A README.md file at the root of the folder of the project is mandatory
-Your code should be W3C compliant and validate with W3C-Validator
-Techium will be the name of the company we will use across our webpages.
+A README.md file, at the root of the folder of the project, is mandatory
+Use the newest version of Google Chrome browser (78.0.3904.70 or later).
+Screenshots can be taken via the OS, not necessary via the DevTools. These screenshots are used to see how and where you are doing/playing with the DevTools.
 
 ## Author :book:
 
