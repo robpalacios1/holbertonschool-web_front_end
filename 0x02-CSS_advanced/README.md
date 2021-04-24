@@ -19,7 +19,7 @@ For this project, students are expected to look at this concept:
 - CSS specificity calculator
 - Play with CSS selector
 
-**Learning Objectives**
+## Learning Objectives
 
 - Selectors, properties, and values
 - The difference between block and inline styling
@@ -34,7 +34,7 @@ For this project, students are expected to look at this concept:
 - How to transform (2d, 3d) elements
 - What vendor prefixes are
 
-**Requirements**
+## Requirements
 ### General
 - Allowed editors: vi, vim, emacs, VSCode, Atom
 - All your files will be interpreted on Chrome (version 78.x)
