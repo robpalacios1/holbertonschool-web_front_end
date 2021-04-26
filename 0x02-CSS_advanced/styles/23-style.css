@@ -302,6 +302,11 @@ ul.row {
   width: 50%;
 }
 
+[class^="col-"] {
+  float: left;
+  padding: 0.5rem;
+}
+
 .footer-copyright {
   margin: 0;
   font-size: var(--font-size-small);
@@ -321,7 +326,7 @@ ul.row {
 }
 
 .social-link > svg {
-  color: var(--text-color);
+  fill: var(--text-color);
 }
 
 :root {
