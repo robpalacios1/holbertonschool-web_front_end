@@ -150,8 +150,8 @@ template {
 /*# sourceMappingURL=normalize.min.css.map */
 
 *,
-*::before,
-*::after {
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -161,11 +161,11 @@ html {
 }
 
 body {
-  color: var(--text-color);
+  color: var(--text-black);
   font-family: var(--font-family-base);
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-regular);
-  line-height: var(--line-height-base);
+  min-height: var(--line-height-base);
 }
 
 .header {
@@ -177,7 +177,7 @@ body {
 }
 
 .header-logo a {
-  display: var(--header-logo-link-position);
+  display: var(--header-logo-link-display);
   position: var(--header-logo-link-position);
   top: var(--header-logo-link-top);
   left: var(--header-logo-link-left);
@@ -197,7 +197,7 @@ body {
 .nav .nav-item {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
-  font-size: var(nav-item-font-size);
+  font-size: var(--nav-item-font-size);
   letter-spacing: var(--nav-item-letter-spacing);
   display: var(--nav-item-display);
   margin: var(--nav-item-margin);
@@ -209,7 +209,7 @@ body {
 }
 
 .nav .nav-link:hover {
-  color: var(--color-white);
+  color: var(--nav-item-link-hover);
 }
 
 .nav .nav-link::before {
@@ -234,7 +234,7 @@ a:link {
 }
 
 a:visited {
-  font-size: italic;
+  font-style: italic;
 }
 
 a:hover {
@@ -248,7 +248,7 @@ a:active {
 .button {
   display: var(--button-display);
   padding: var(--button-padding);
-  border-style: var(--button-border);
+  border: var(--button-border);
   font-size: var(--button-font-size);
   color: var(--button-color);
   text-decoration: var(--button-text-decoration);
@@ -257,7 +257,7 @@ a:active {
 .button:hover {
   color: var(--button-hover-color);
   text-decoration: var(--button-hover-text-decoration);
-  background-color: var(--button-hover-background);
+  background: var(--button-hover-background);
   transition-duration: var(--transition-duration);
   transition-property: color, background-color;
 }
@@ -286,25 +286,32 @@ a:active {
   text-decoration: none;
 }
 
+.card-testimonial {
+  text-align: center;
+}
+
+.card-testimonial .card-avatar {
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+}
+
+.card-testimonial .card-quote cite {
+  display: block;
+  padding-top: 1rem;
+  color: var(--color-primary);
+}
+
 .card-work .card-outer {
   position: relative;
   overflow: hidden;
 }
 
-.card-work .card-img img {
+.card-work .card-image img {
   height: 30rem;
   width: 100%;
   object-fit: cover;
   vertical-align: bottom;
-}
-
-.card-work:hover .card-image {
-  transform: scale(1.2);
-  transition: var(--transition-duration) var(--transition-cubic-bezier);
-}
-
-.card-work:hover .card-outer {
-  transform: scale(0.95);
 }
 
 .card-work .card-inner {
@@ -317,7 +324,7 @@ a:active {
 }
 
 .card-work:hover .card-inner {
-  background-color: rgba(0, 0, 0 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .card-work .card-title {
@@ -334,12 +341,12 @@ a:active {
   padding-top: 45%;
 }
 
-.card-work .card-title::after {
+.card-work .card-title a::after {
   position: absolute;
   top: 0;
   right: 0;
-  bottom: 0;
   left: 0;
+  bottom: 0;
   content: "";
 }
 
@@ -347,17 +354,16 @@ a:active {
   opacity: 1;
 }
 
-.card-testimonial {
-  text-align: center;
+.card-work:hover .card-image {
+  transform: scale(1.2);
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
-.card-testimonial .card-avatar {
-  border-radius: 50%;
-  width: 10rem;
-  height: 10rem;
+.card-work:hover .card-outer {
+  transform: scale(0.95);
 }
 
-.card-testimonial .card-outer {
+.card-testimonial .card-quote {
   position: relative;
 }
 
@@ -371,10 +377,26 @@ a:active {
   z-index: -1;
 }
 
-.card-testimonial .card-quote cite {
-  display: block;
-  padding-top: 1rem;
+.section-tagline {
   color: var(--color-primary);
+  font-family: var(--font-family-title);
+  text-transform: var(--section-tagline-transform);
+  font-weight: var(--font-weight-bold);
+  margin: var(--section-tagline-margin);
+}
+
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title {
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-xx-large);
+  font-weight: var(--font-weight-bold);
+  margin: var(--section-title-margin);
+  color: var(--section-title-color);
 }
 
 .section {
@@ -395,7 +417,7 @@ a:active {
 
 .section-header {
   text-align: var(--section-header-align);
-  padding: var(--section-padding);
+  padding: var(--section-header-padding);
 }
 
 .section-body {
@@ -405,32 +427,6 @@ a:active {
 .section-footer {
   padding: var(--section-footer-padding);
   text-align: var(--section-footer-align);
-}
-
-.footer {
-  padding: var(--footer-padding);
-}
-
-.section-title {
-  font-family: var(--font-family-title);
-  font-size: var(--font-size-xx-large);
-  font-weight: var(--font-weight-bold);
-  margin: var(--section-title-margin);
-  color: var(--section-title-color);
-}
-
-.section-tagline {
-  color: var(--color-primary);
-  font-family: var(--font-family-title);
-  text-transform: var(--section-tagline-transform);
-  font-weight: var(--font-weight-bold);
-  margin: var(--section-tagline-margin);
-}
-
-.container {
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 [data-section-theme="dark"] {
@@ -453,7 +449,7 @@ h6 {
 .row::after {
   content: "";
   display: table;
-  float: none;
+  clear: both;
 }
 
 ul.row {
@@ -468,6 +464,15 @@ ul.row {
 
 .col-1-2 {
   width: 50%;
+}
+
+[class^="col-"] {
+  float: left;
+  padding: 0.5rem;
+}
+
+.footer {
+  padding: var(--footer-padding);
 }
 
 .footer-copyright {
@@ -489,7 +494,7 @@ ul.row {
 }
 
 .social-link > svg {
-  color: var(--text-color);
+  fill: var(--text-color);
 }
 
 :root {
@@ -527,9 +532,9 @@ ul.row {
   --nav-item-font-weight: var(--font-weight-bold);
   --nav-item-font-size: var(--font-size-medium);
   --nav-item-letter-spacing: 0.04rem;
-  --nav-item-display: inline block;
+  --nav-item-display: inline-block;
   --nav-item-margin: 0 0 3rem 0;
-  --nav-item-link-hover: var(--color-primary);
+  --nav-item-link-hover: var(--color-white);
   --section-tagline-margin: 0;
   --button-display: inline-block;
   --button-padding: 1.5rem 3rem;
