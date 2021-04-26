@@ -182,7 +182,7 @@ body {
 .nav .nav-item {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
-  font-size: var(nav-item-font-size);
+  font-size: var(--nav-item-font-size);
   letter-spacing: var(--nav-item-letter-spacing);
   display: var(--nav-item-display);
   margin: var(--nav-item-margin);
@@ -228,7 +228,7 @@ a:active {
 
 .section-header {
   text-align: var(--section-header-align);
-  padding: var(--section-padding);
+  padding: var(--section-header-padding);
 }
 
 .section-body {
