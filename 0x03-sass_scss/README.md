@@ -1,50 +1,60 @@
-# :gear: 0x00. Advanced HTML :gear:
-
-## Concepts
-
-For this project, students are expected to look at this concept:
-
-- HTML - elements of a web page
-
-## Welcome!
-
-Welcome to the Web Stack specialization. The 3 first projects will give you all basics of the Web development: HTML, CSS and Developer tools.
-
-In this project, you will learn how to use HTML tags to structure a web page. No CSS, no styling - don’t worry, the final page will be “ugly” it’s normal, it’s not the purpose of this project.
-
-Important note: details are important! lowercase vs uppercase / wrong letter… be careful!
+# :gear: 0x03. Sass & Scss :gear:
 
 ## Resources
 
 **Read or watch:**
 
-- HTML 5.2
-- HTML: HyperText Markup Language | MDN
-- HTML Reference - A free guide to all HTML elements and attributes
-- Can I use… Support tables for HTML5, CSS3, etc
-- HTML Cheat Sheet - WebsiteSetup
+- Sass Basics
+- Sass control directives: @if, @for, @each and @while
+- Sass references
+- The Sass Way
 
 **Learning Objectives**
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-- Which guidelines to follow for HTML
-- How to create the skeleton of an HTML5 page
-- How to use semantic HTML tags to structure a web page
-- Which use cases to use div vs span
-- The semantic value’s of header, main, footer, article, nav, section, aside
-- How to use headings (and why it’s important to follow the hierarchical order)
-- How to make lists in HTML
-- The differences between medias (SVG, GIF, PNG, JPG)
-- How to structure data in a table
-- How to integrate a video in a webpage
-- How to integrate an audio file in a webpage
-- How to embed external content
-- How to correctly structure an HTML page
+- What Sass means
+- How to write Sass & Scss file
+- What is the difference between Sass and Scss
+- What is the Sass preprocessing
+- How to declare a variable
+- How to use nested definition
+- How to import a Sass file
+- How to use mixins
+- How to declare extend/inheritance styles
+- How to manipulate operators
 
-**Requirements**
-A README.md file at the root of the folder of the project is mandatory
-Your code should be W3C compliant and validate with W3C-Validator
-Techium will be the name of the company we will use across our webpages.
+## Requirements
+### General
+- Allowed editors: vi, vim, emacs
+- All your files will be executed on Ubuntu 18.04 LTS using Sass 3.7.4 (or higher)
+- All your files should end with a new line
+- All your Scss files should have a comment at the beginning (i.e. syntax above)
+- All your files should start by a comment describing the task
+- A README.md file, at the root of the folder of the project, is mandatory
+- The length of your files will be tested using wc
+
+## More Info
+### Comments for your Scss file:
+#### All your Scss file must start with a comment block
+~~~
+$ cat my_styles.scss
+/* My style */
+body {
+    .container {
+        color: #3D3D3D;
+    }
+}
+$
+~~~
+
+### Install Sass/Scss on Ubuntu 18.04 LTS
+~~~
+$ sudo apt-get install -y ruby2.5 ruby2.5-dev
+$ sudo apt-get install ubuntu-dev-tools
+$ gem install sass -v 3.7.4
+$ sass --version
+Ruby Sass 3.7.4
+~~~
 
 ## Author :book:
 
