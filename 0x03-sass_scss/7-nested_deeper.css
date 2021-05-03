@@ -7,6 +7,6 @@ body h1 {
   font-size: 16px;
 }
 
-body .smaller {
+body h1.smaller {
   font-size: 12px;
 }
