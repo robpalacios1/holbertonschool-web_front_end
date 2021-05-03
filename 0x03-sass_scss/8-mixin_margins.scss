@@ -1,0 +1,21 @@
+/* Margin mixin */
+
+@mixin margin-body {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@mixin margin-div {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+body {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+div {
+  margin-left: 15px;
+  margin-right: 15px;
+}
