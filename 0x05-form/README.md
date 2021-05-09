@@ -1,50 +1,29 @@
-# :gear: 0x00. Advanced HTML :gear:
-
-## Concepts
-
-For this project, students are expected to look at this concept:
-
-- HTML - elements of a web page
-
-## Welcome!
-
-Welcome to the Web Stack specialization. The 3 first projects will give you all basics of the Web development: HTML, CSS and Developer tools.
-
-In this project, you will learn how to use HTML tags to structure a web page. No CSS, no styling - don’t worry, the final page will be “ugly” it’s normal, it’s not the purpose of this project.
-
-Important note: details are important! lowercase vs uppercase / wrong letter… be careful!
+# :gear: 0x05. Forms :gear:
 
 ## Resources
 
 **Read or watch:**
 
-- HTML 5.2
-- HTML: HyperText Markup Language | MDN
-- HTML Reference - A free guide to all HTML elements and attributes
-- Can I use… Support tables for HTML5, CSS3, etc
-- HTML Cheat Sheet - WebsiteSetup
+- An Extensive Guide To Web Form Usability — Smashing Magazine
+- Forms - UX Movement
+- Placeholders in Form Fields are Harmful (Video)
+- The Anatomy of Accessible Forms: Best Practices | Deque
+- Pure CSS Custom Error Messaging for Default Form Elements – Sarah Holley Design
 
 **Learning Objectives**
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-- Which guidelines to follow for HTML
-- How to create the skeleton of an HTML5 page
-- How to use semantic HTML tags to structure a web page
-- Which use cases to use div vs span
-- The semantic value’s of header, main, footer, article, nav, section, aside
-- How to use headings (and why it’s important to follow the hierarchical order)
-- How to make lists in HTML
-- The differences between medias (SVG, GIF, PNG, JPG)
-- How to structure data in a table
-- How to integrate a video in a webpage
-- How to integrate an audio file in a webpage
-- How to embed external content
-- How to correctly structure an HTML page
+- How to create an HTML5 form
+- How to choose the right input type
+- How to constrain a form field with regular expressions
+- How to style inputs for invalid, valid, and required fields
+- How to build a a comment form
+- How to build a simple search form
+- How to create usable and accessible forms
 
 **Requirements**
-A README.md file at the root of the folder of the project is mandatory
-Your code should be W3C compliant and validate with W3C-Validator
-Techium will be the name of the company we will use across our webpages.
+- Allowed editors: vi, vim, emacs
+- A README.md at the root of the project directory is mandatory
+- HTML and CSS have been rendered on Chrome 78 or more.
 
 ## Author :book:
 
