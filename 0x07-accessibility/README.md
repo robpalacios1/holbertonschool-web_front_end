@@ -1,4 +1,4 @@
-# :gear: 0x00. Advanced HTML :gear:
+# :gear: 0x07. Accessibility :gear:
 
 ## Concepts
 
@@ -6,45 +6,32 @@ For this project, students are expected to look at this concept:
 
 - HTML - elements of a web page
 
-## Welcome!
-
-Welcome to the Web Stack specialization. The 3 first projects will give you all basics of the Web development: HTML, CSS and Developer tools.
-
-In this project, you will learn how to use HTML tags to structure a web page. No CSS, no styling - don’t worry, the final page will be “ugly” it’s normal, it’s not the purpose of this project.
-
-Important note: details are important! lowercase vs uppercase / wrong letter… be careful!
 
 ## Resources
 
 **Read or watch:**
 
-- HTML 5.2
-- HTML: HyperText Markup Language | MDN
-- HTML Reference - A free guide to all HTML elements and attributes
-- Can I use… Support tables for HTML5, CSS3, etc
-- HTML Cheat Sheet - WebsiteSetup
-
-**Learning Objectives**
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-
-- Which guidelines to follow for HTML
-- How to create the skeleton of an HTML5 page
-- How to use semantic HTML tags to structure a web page
-- Which use cases to use div vs span
-- The semantic value’s of header, main, footer, article, nav, section, aside
-- How to use headings (and why it’s important to follow the hierarchical order)
-- How to make lists in HTML
-- The differences between medias (SVG, GIF, PNG, JPG)
-- How to structure data in a table
-- How to integrate a video in a webpage
-- How to integrate an audio file in a webpage
-- How to embed external content
-- How to correctly structure an HTML page
+- Accessibility is not a feature. — Ethan Marcotte
+- How to Meet WCAG (Quickref Reference
+- Web Accessibility Guidebook for Developers
+- Testing with assistive technologies - Service Manual - GOV.UK
+- A11Y Style Guide
+- Building Pylon-Free Web Pages: An Intro to Web Accessibility
+- I Threw Away my Mouse - 24 Accessibility
+- I Used a Switch Control for a Day - 24 Accessibility
+- The Myths of Color Contrast Accessibility
+- IAAP Certification
+- Accessibility Blog | Deque Systems
+- Tink - Léonie Watson – On technology, food & life in the digital age
+- Articles » Simply Accessible
+- Accessibility Weekly
+- European label (Web Accessibility): Euracert - Home page
+- Section508.gov | GSA Government-wide IT Accessibility Program
 
 **Requirements**
-A README.md file at the root of the folder of the project is mandatory
-Your code should be W3C compliant and validate with W3C-Validator
-Techium will be the name of the company we will use across our webpages.
+- Allowed editors: vi, vim, emacs
+- A README.md at the root of the project directory is mandatory
+- HTML and CSS have been rendered on Chrome 78 or more.
 
 ## Author :book:
 
